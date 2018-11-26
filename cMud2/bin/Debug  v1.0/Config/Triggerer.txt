@@ -1,0 +1,8 @@
+^您的英文名字|darkbyf|login|true
+^此ID档案已存在|qweqwe943|login|true
+^您要将另一个连线中的相同人物赶出去|y|login|true
+^重新连线完毕|l|login|true
+你现在坐在坐垫上没法行动|zhan|general|true
+你一觉醒来|w;say dushu|read|true
+dushu|#wa 5000;read shediao 1;say dushu;|read|true
+你已经很累了|yj;say dushu|read|true

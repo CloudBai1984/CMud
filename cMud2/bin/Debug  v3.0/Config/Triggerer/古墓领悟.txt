@@ -1,0 +1,13 @@
+你现在坐在坐垫上没法行动|zhan|general|true
+读书943|du shu for 1;#wa 1000;#test 读书943|read|true
+你现在过于疲倦，无法专心下来研读新知|yj|read|true
+你的内力不够|e;e;sleep|read|true
+你一觉醒来|#alias ww;halt;#wa 500;w;w;eat baicai;eat zhou;eat shanyao;eat huagu;drink hulu;#alias ww dazuo 100|read|true
+学习943|ww;#wa 500;#test 学习943|read|true
+你今天太累了|yj|read|true
+这里不是你能睡的地方|e;e;sleep|read|true
+你刚在三分钟内睡过一觉|yj;dazuo 10;#wa 2000;sleep|read|true
+你现在的气太少了|#alias ww xue song for taiji-shengong 5|read|true
+你现在精不够|yj|read|true
+你的基本功夫比你的高级功夫还高|#alias lw lian claw|lingwu|true
+领悟943|lw|lingwu|true

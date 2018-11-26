@@ -1,0 +1,11 @@
+你的体力太低了|yun recover|lingwu|true
+你的内力不够|nlbg|lingwu|true
+你需要提高基本功|#alias lw lingwu @wg 50;#alias nlbg {#alias lw;#wa 2000;yun regenerate;dazuo 2000;#alias lw lingwu @wg 50}|lingwu|true
+你现在过于疲倦|yun regenerate|lingwu|true
+你领悟了一次|yun regenerate|lingwu|true
+你的基本功夫比你的高级功夫还高|#alias lw lian @wg 10;#alias nlbg {#alias nlbg;#alias lw;out;w;s;s;s;w;w;s;sleep}|lingwu|true
+你必须空手才能练习|unwield all|lingwu|true
+你一觉醒来|eat baicai;eat doufu;eat fentiao;eat qiezi;drink hulu;n;e;e;n;n;n;e;enter;yun xinjing;#wa 1000;dazuo 2000;#alias lw lingwu @wg 50|lingwu|true
+你现在的气太少了|#alias nlbg {#alias nlbg;#alias lw;out;w;s;s;s;w;w;s;sleep;#alias nlbg {#alias lw;#wa 2000;yun regenerate;dazuo 2000;#alias lw lingwu @wg 50}}|lingwu|true
+你刚在三分钟内睡过一觉|#wa 2000;sleep|lingwu|true
+你的体力不够|yun recover|lingwu|true

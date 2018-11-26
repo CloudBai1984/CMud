@@ -1,0 +1,15 @@
+^您的英文名字|darkbyf|login|true
+^此ID档案已存在|qweqwe943|login|true
+^您要将另一个连线中的相同人物赶出去|y|login|true
+^重新连线完毕|l|login|true
+领悟943|lw;#wa 500;#test 领悟943|lingwu|true
+你的体力太低了|yun recover|lingwu|true
+你的内力不够|nlbg|lingwu|true
+你需要提高基本功|#alias lw lingwu claw 50;#alias nlbg {#alias lw;#wa 2000;yun regenerate;dazuo 2000;#alias lw lingwu claw 50}|lingwu|true
+你现在过于疲倦|yun regenerate|lingwu|true
+你领悟了一次基本爪法|yun regenerate|lingwu|true
+你的基本功夫比你的高级功夫还高|#alias lw lian claw 10;#alias nlbg {#alias lw;out;w;s;s;s;w;w;s;sleep}|lingwu|true
+你必须空手才能练习|unwield all|lingwu|true
+你一觉醒来|eat baicai;eat doufu;eat fentiao;drink hulu;n;e;e;n;n;n;e;enter;dazuo 2000;#alias lw lingwu claw 50|lingwu|true
+你现在的气太少了|#alias nlbg {#alias lw;out;w;s;s;s;w;w;s;sleep;#alias nlbg {#alias lw;#wa 2000;yun regenerate;dazuo 2000;#alias lw lingwu claw 50}}|lingwu|true
+你刚在三分钟内睡过一觉|#wa 2000;sleep|lingwu|true

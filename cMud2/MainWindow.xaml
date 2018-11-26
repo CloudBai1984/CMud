@@ -1,0 +1,46 @@
+﻿<Window x:Class="cMud2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Closing="Window_Closing"
+        Title="MainWindow" Height="800" Width="1024" WindowState="Maximized"  Loaded="Window_Loaded">
+    <DockPanel LastChildFill="True">
+        <Menu DockPanel.Dock="Top" Height="20">
+            <MenuItem Header="File">
+                <MenuItem Header="Connect" Name="Connect" Click="Connect_Click"  ></MenuItem>
+            </MenuItem>
+            <MenuItem Header="Tool">
+                <MenuItem Name="muiOriginalText" Header="OriginalText" Click="muiOriginalText_Click"></MenuItem>
+                <MenuItem Name="TestMsg" Header="TestMsg" Click="TestMsg_Click"></MenuItem>
+            </MenuItem>
+            <MenuItem Header="Alias">
+                <MenuItem Name="muiEditAlias" Header="编辑" Click="muiEditAlias_Click" ></MenuItem>
+                <MenuItem Name="muiLoadAlias" Header="装载" Click="muiLoadAlias_Click" ></MenuItem>
+            </MenuItem>
+            <MenuItem Header="Triggerer">
+                <MenuItem Name="muiEditTriggerer" Header="编辑" Click="muiEditTriggerer_Click" ></MenuItem>
+                <MenuItem Name="muiReloadTriggerer" Header="重装" Click="muiReloadTriggerer_Click" ></MenuItem>
+                <MenuItem Name="muiLoadTriggerer" Header="装载" Click="muiLoadTriggerer_Click" ></MenuItem>
+                <MenuItem Name="muiClearTriggerer" Header="清除" Click="muiClearTriggerer_Click" ></MenuItem>
+                <MenuItem Name="muiTriggererEnable" Header="启用" IsEnabled="True" Click="muiTriggererEnable_Click" IsChecked="False" ></MenuItem>
+            </MenuItem>
+            <MenuItem Header="Robot">
+                <MenuItem Name="muiQuest1" Header="炼丹任务" Click="muiQuest1_Click" ></MenuItem>
+                <MenuItem Name="muiQuest2" Header="阵法任务" Click="muiQuest2_Click" ></MenuItem>
+                <MenuItem Name="muiQuest3" Header="诵经任务" Click="muiQuest3_Click" ></MenuItem>
+                <MenuItem Name="muiQuest4" Header="采气任务" Click="muiQuest4_Click" ></MenuItem>
+                <MenuItem Name="muiQuest5" Header="武当任务" Click="muiQuest5_Click" ></MenuItem>
+                <MenuItem Name="muiStopRobot" Header="停止" Click="muiStopRobot_Click" ></MenuItem>
+            </MenuItem>
+        </Menu>
+        <DockPanel  DockPanel.Dock="Bottom">
+            <CheckBox Name="cbxAutoScroll" DockPanel.Dock="Right"  IsChecked="true" Height="15" />
+            <TextBox Name="tbxInput" KeyUp="tbxInput_KeyUp" ></TextBox>
+        </DockPanel>
+        <DockPanel>
+            <FlowDocumentScrollViewer x:Name="fdcOutput" ScrollViewer.HorizontalScrollBarVisibility="Disabled" ScrollViewer.VerticalScrollBarVisibility="Auto" >
+                <FlowDocument Background="Black" FontFamily="SimSun" FontSize="14" >
+                </FlowDocument>
+            </FlowDocumentScrollViewer>
+        </DockPanel>
+       
+    </DockPanel>
+</Window>

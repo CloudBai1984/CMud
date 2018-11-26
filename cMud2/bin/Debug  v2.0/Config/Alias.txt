@@ -1,0 +1,16 @@
+﻿fd|#test 领悟943
+luoyang|enter shudong;say 天堂有路你不走呀;d;1;n;#3 nw;n;nw;u;#2 e;s;sw;nw;#4 w;wu;wd;#3 w
+luoyangb|#3 e;eu;ed;#4 e;se;ne;n;#2 w;enter dong;se;s;#3 se;#2 s;u;out
+gumu|enter shudong;say 天堂有路你不走呀;d;3;#2 ne;u;sw;e;sd;e;#2 nu;wu;#2 wd;wu;w;nw;n;w;#2 sw;ask yang about 进墓;w
+nanchang|#ALIAS xiachuan {#2 se;s;#4 sw;#5 s;su;se;#3 s};#4 w;nw;#5 w;#3 s;sd;se;s;fufeizuochuan
+xx|wbei none;unwield all;wield sword;jifa parry xuantie-jian;jifa sword xuantie-jian;perform sword.xiongyong
+ww|lingwu claw
+wudang|enter shudong;say 天堂有路你不走呀;d;5;#2 sw;out;nd;#2 w;wu;#3 nu;w;#2 nu;#2 eu;#2 nu;#2 n
+ss|unwield all;remove shield;wield sword;wield whip;jifa parry yunu-jianfa;jifa sword yunu-jianfa;wbei yunu-jianfa changhen-bian;perform sword.suxin
+lw|lingwu claw 50
+nlbg|#alias lw;#wa 2000;yun regenerate;dazuo 2000;#alias lw lingwu claw 50
+cc|unwield all;remove shield;wield whip;wield sword;jifa parry changhen-bian;jifa sword yunu-jianfa;wbei yunu-jianfa changhen-bian;perform whip.chan
+wudangb|#2 s;#2 sd;#2 wd;#2 sd;e;#3 sd;ed;#3 e;se;#2 e;ne;n;#wa 1000;#20 e;#wa 1000;w;se;#8 e;se;#4 e
+ll|#2 darkbyfa;qweqwe943
+qq|yun recover
+zz|unwield all;bei claw;perform claw.zhua

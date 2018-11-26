@@ -1,0 +1,12 @@
+ld|ask yu about 炼丹
+rw|ask chongxu about quest
+qx|ask chongxu about cancel
+wc|ask chongxu about success
+cf|#goto 客房;get baicai;#2 get zhou;#2 eat baicai;#4 eat zhou;drop baicai;#2 drop zhou
+hs|#goto 龟泉;drink
+bb|#goto 武当广场
+jj|#goto 复真观二层
+wudangb|#2 s;#2 sd;#2 wd;#2 sd;e;#3 sd;ed;#3 e;se;#2 e;ne;n;#wa 1000;#20 e;#wa 1000;w;se;#8 e;se;#4 e
+cc|unwield all;wield whip;wield sword;jifa parry changhen-bian;perform whip.chan
+xx|unwield all;wield sword;wear shield;jifa parry xuantie-jian;jifa sword xuantie-jian;perform sword.xiongyong
+ss|unwield all;wield sword;wield sword 2;perform sword.suxin
